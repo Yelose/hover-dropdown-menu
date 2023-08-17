@@ -1,0 +1,57 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BASIC CSS */
+header > nav {
+  display: flex;
+  background-color: gray;
+  gap: 40px;
+  cursor: pointer;
+}
+
+p {
+  padding: 10px;
+}
+.menu-links p,
+.menu-links a {
+  text-decoration: none;
+  color: black;
+}
+.menu-links a:hover,
+.menu-links a:hover p {
+  background-color: rgba(128, 128, 128, 0.09);
+}
+
+.menu-item {
+  position: relative;
+  padding: 10px;
+}
+.menu-links {
+  background-color: beige;
+  position: absolute;
+  top: 50px;
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  z-index: 100;
+  transition: max-height 2s ease-out, opacity 0.4s ease-out;
+}
+
+/* HOVER DROPDOWN EFFECT */
+.menu-item:hover .menu-links {
+  opacity: 1;
+  animation: showMenu 2s forwards;
+}
+
+@keyframes showMenu {
+  0% {
+    max-height: 0;
+  }
+  100% {
+    max-height: 50vh;
+  }
+}
