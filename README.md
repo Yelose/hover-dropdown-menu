@@ -14,7 +14,7 @@ This tutorial demonstrates how to create a stylish and interactive hover dropdow
 
 ## Preview
 
-![Dropdown Menu Preview](/path/to/your/preview/image.png)
+![Dropdown Menu Preview](https://github.com/Yelose/hover-dropdown-menu/blob/main/dropdown-menu.gif)
 
 ## Prerequisites 
 - Basic understanding of HTML and CSS.
