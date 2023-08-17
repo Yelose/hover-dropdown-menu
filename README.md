@@ -124,6 +124,11 @@ p {
 }
 ```
 
+- The `RESET` section resets default styling for HTML elements.
+- The `BASIC CSS` section defines general styles for the menu and menu items.
+- The `.menu-links a:hover, .menu-links a:hover p` rule changes the background color when hovering over menu items and submenu links.
+- The `HOVER DROPDOWN EFFECT` section controls the animation and appearance of the dropdown menu.
+
 ## Conclusion 
 
 By following this tutorial, you've created a responsive and stylish dropdown menu with hover effects. Feel free to experiment and customize the styles to fit your website's design.
